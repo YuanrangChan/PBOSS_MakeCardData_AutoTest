@@ -389,7 +389,7 @@ for i in range(int(number)):
 fp.close()
  
 
-print u"生成的制卡写卡平台模拟文件和卡数据文件见：\n C:/Users/Administrator/Desktop/wcp: \n %s \n %s，请查收！" % (filename0_wcp,filename_wcp)
+print u"生成的制卡写卡平台模拟文件和卡数据文件见：\n C:/Users/Administrator/Desktop/wcp: \n %s \n %s" % (filename0_wcp,filename_wcp)
 
 
 
