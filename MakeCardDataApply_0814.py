@@ -1,8 +1,7 @@
 #coding:utf-8
-import requests
 from time import *
 import random
-import os,sys
+import os
 import ftplib
 import requests
 import paramiko 
