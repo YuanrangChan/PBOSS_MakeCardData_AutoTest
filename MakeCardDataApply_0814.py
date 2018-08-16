@@ -179,7 +179,7 @@ else:
         ' '+Appcode+' '+'pboss-resource-web.log'
         #如果当前日志没查找到，就要去历史日志里查找IMSI，ICCID等信息
         command2 = 'cd /work/logs/'+FourteenTime[0:4]+'/'+FourteenTime[4:6]+'/'+FourteenTime[6:8]+'/main/pboss-resource-web;\
-                    zgrep -A 21 -i pboss-resource-web.'+FourteenTime[0:4]+FourteenTime[4:6]+FourteenTime[6:8]+FourteenTime[8:10]+\
+                    zgrep -A 21 -i'+' '+Appcode+' '+'pboss-resource-web.'+FourteenTime[0:4]+FourteenTime[4:6]+FourteenTime[6:8]+FourteenTime[8:10]+\
                     '_9080_0.log.gz'
         print "执行的linux命令1为：\n %s" % command1
         print "执行的linux命令2为：\n %s" % command2
